@@ -7,7 +7,7 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println("Ambiente: " + System.getProperty("env.name"));
-        System.out.println("Bienvenido a TaskMaster de oyundegit !");
+        System.out.println("Bienvenido a TaskMaster de oyundegit action !");
         addTask("Estudiar Maven");
         addTask("Leer sobre CI/CD");
         printTasks();

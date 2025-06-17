@@ -7,10 +7,14 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println("Ambiente: " + System.getProperty("env.name"));
-        System.out.println("Bienvenido a TaskMaster de oyundegit action 12 !"
+        System.out.println("Bienvenido a TaskMaster de oyundegit action 12 !");
         addTask("Estudiar Maven");
         addTask("Leer sobre CI/CD");
         printTasks();
+        String usuariox;
+        usuariox = "admin";
+        String contraseña = "123456"; // Hardcoded credentials
+
     }
 
     public static void addTask(String task) {

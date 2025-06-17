@@ -11,10 +11,6 @@ public class App {
         addTask("Estudiar Maven");
         addTask("Leer sobre CI/CD");
         printTasks();
-        String usuariox;
-        usuariox = "admin";
-        String contraseña = "123456"; // Hardcoded credentials
-
     }
 
     public static void addTask(String task) {

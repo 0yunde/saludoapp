@@ -11,7 +11,7 @@ public class AppTest {
         App.tasks.clear();
 
         // Añadimos una tarea de prueba
-        App.addTask("Terminar ejercicio Maven");
+        App.addTask("Terminar ejercicio");
 
         // Comprobamos que ahora hay exactamente 1 elemento
         assertEquals(1, App.tasks.size());
